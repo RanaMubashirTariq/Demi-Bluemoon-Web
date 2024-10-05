@@ -1,0 +1,330 @@
+.card-component{
+    max-width: 100%;
+    height: 2160px;
+    background-image: url(/public/Images/CardsBackground.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-d{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    gap: 60px;
+    padding: 90px 150px 0px 150px;
+}
+.heading-d{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 645.75px;
+    height:34.75px;
+    gap: 18.75px;
+
+}
+.top-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 645.75px;
+    height: 70px;
+    gap: 0px;
+    color: linear-gradient(269.42deg, #FFFFFF 11.19%, #E4E7F5 50.65%, #D2D8EE 76.77%, #3D476D 112.51%);
+
+
+}
+.top-heading h2{
+    font-family: Poppins;
+    font-size: 58.5px;
+    font-weight: 600;
+    line-height: 70.2px;
+    text-align: center;
+     color: white;    
+}
+.para-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 561px;
+    height: 46px;
+    gap: 0px;
+
+}
+.para-heading p{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+.Cards-container{
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding-top: 60px;
+    width: 1140px;
+    height: 729.5px;
+    gap: 24.38px;
+}
+.card-d{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 363.75px;
+    height: 352.5px;
+    box-sizing: border-box;
+    gap: 38px;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 20px;
+    /* border: 1.5px solid rgba(255, 255, 255, 0.4); */
+    backdrop-filter: blur(22.5px);
+
+}
+.moon-pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* justify-items: start; */
+    width: 74.23px;
+    height: 62.74px;
+    padding-top: 61.86px;
+    padding-left: 35.35px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.heading-tag-d{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 291.63px;
+    height: 122.75px;
+    top: 163.49px;
+    padding-left: 35.35px;
+    padding-right: 36px;
+    gap: 18.75px;
+    opacity: 0px;
+}
+.card-heading{
+    display: flex;
+    justify-content: flex-start;
+    width: 291.63px;
+    height: 32px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.card-heading h2{
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 31.5px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1); 
+}
+.card-para-heading{
+    width: 291.63px;
+    height: 72px;
+    gap: 0px;
+    opacity: 0.6px;
+
+}
+.card-para-heading p{
+    display: flex;
+    justify-content: flex-start;
+    font-family: Poppins;
+    font-size: 13.5px;
+    font-weight: 400;
+    line-height: 23.63px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+ /*  Earth-part is start now */
+
+ .Earth-part{
+    display: flex;
+    justify-content:flex-start;
+    /* width: 1440px; */
+    max-width: 100%;
+  height: 1221px;
+  top: 2160px;
+  left: 1440px;
+  gap: 0px;
+  opacity: 0px;
+  color: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 45.15%);
+
+}
+.right-part-d{
+  flex: none;
+  width: 1,240px;
+  height:6,480px;
+ padding-top: 39.2px;
+ position: absolute;
+  gap: 0px;
+  opacity: 0px;
+
+}
+.left-part-d{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 668.25px;
+  height: 911.25px;
+  padding-top: 194px;
+  padding-left: 621.75px;
+  gap: 0px;
+  opacity: 0px;
+}
+.left-heading-d{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 533px;
+  height: 181.75px;
+  gap: 18.75px;
+  opacity: 0px;
+}
+.left-heading-h2-d{
+  width: 533px;
+  height: 140px;
+  gap: 0px;
+  opacity: 0px;  
+}
+.left-heading-h2-d h2{
+  font-family: Poppins;
+  font-size: 58.5px;
+  font-weight: 600;
+  line-height: 70.2px;
+  text-align: left; 
+  color: white;   
+}
+.left-para-d{
+  width: 261px;
+  height: 23px;
+  gap: 0px;
+  opacity: 0px;
+}
+.left-para-d p {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+  text-align: center;
+  color: white;
+}
+.left-para-d p span{
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+  text-align: center;
+  color: aqua;
+}
+.four-card-d{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ align-content: flex-start;
+  align-items: flex-start;
+  width: 521.25px;
+  height: 517px;
+  position: absolute;
+  padding-top: 272.25px;
+  padding-left: 110px;
+  gap: 101.25px;
+  opacity: 0px;   
+}
+.inner-four-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 210px;
+  height:204.75px;
+  gap: 30px;
+  opacity: 0px;
+  backdrop-filter: blur(22.5px);
+}
+.inner-card-pic-d{
+  width: 86.25px;
+  height: 86.25px;
+  gap: 0px;
+  opacity: 0px;
+}
+.inner-card-data-d{
+  display: flex;
+  flex-direction: column;
+  width: 210px;
+  height: 88.5px;
+  gap: 15px;
+  opacity: 0px;
+}
+.inner-card-heading-d{
+  width: 210px;
+  height: 19.5px;
+  gap: 0px;
+  opacity: 0px;
+}
+.inner-card-heading-d h2{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+.inner-card-para-d{
+  width: 210px;
+  height: 54px;
+  gap: 0px;
+  opacity: 0px;
+}
+.inner-card-para-d p {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  text-align: left;  
+  color:  rgba(255, 255, 255, 1);;
+}
+.four-btn-d{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 195px;
+  height: 52.5px;
+  margin-top: 846.75px;
+  margin-left: 110px;
+  gap: 0px;
+  border-radius: 75px;
+  opacity: 0px;
+  background: #0F80FE;
+}
+.four-btn-d button{
+  border: none;
+  outline: none;
+  background: none;
+  width: 131px;
+  height: 17px;
+  top: 864.75px;
+  left: 179.25px;
+  gap: 0px;
+  opacity: 0px;
+}
+.four-d-heading h2{
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 16.5px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  
+}
